@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "github-actions"
+      ],
+      "groupName": "github-actions"
+    }
+  ]
+}

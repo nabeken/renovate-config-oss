@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "config:recommended",
+    ":separateMultipleMajorReleases",
+    ":timezone(Asia/Tokyo)"
+  ]
+}

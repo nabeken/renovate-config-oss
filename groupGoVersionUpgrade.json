@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "regexManagers:githubActionsVersions"
+  ],
+
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["golang"],
+      "groupName": "Go"
+    }
+  ]
+}
