@@ -1,0 +1,35 @@
+# https://github.com/hatena/renovate-config/blob/687964addf81a21051571d09a4829af43bc00ab4/.github/workflows/validate-config.yml
+name: Validate renovate config
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  # renovate: datasource=node-version depName=node
+  NODE_VERSION: '18.16.0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '${{ env.NODE_VERSION }}'
+      - uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node
+      - name: Validate renovate config
+        run: |
+          for file in *.json*
+          do
+            echo "[CI] Let's validate $file"
+            RENOVATE_CONFIG_FILE=${file} npx --package renovate -c 'renovate-config-validator'
+          done
