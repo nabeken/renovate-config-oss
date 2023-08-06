@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "github>nabeken/renovate-config-oss",
+    "github>nabeken/renovate-config-oss:groupGithubActions",
+
+    ":prHourlyLimitNone",
+    ":prConcurrentLimit10",
+    "group:allNonMajor",
+    "helpers:pinGitHubActionDigests",
+    ":pinDevDependencies"
+  ]
+}
