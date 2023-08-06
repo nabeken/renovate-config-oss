@@ -1,0 +1,9 @@
+{
+  "extends": [
+    ":prHourlyLimitNone",
+    ":prConcurrentLimit10",
+    "group:allNonMajor",
+    "helpers:pinGitHubActionDigests",
+    ":pinDevDependencies"
+  ]
+}

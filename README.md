@@ -19,6 +19,15 @@ Refer to this config in `extends` like below:
 
 ## Available presets
 
+**recommended**: A recommended preset for my OSS projects:
+```json
+{
+  "extends": [
+    "github>nabeken/renovate-config-oss:recommended"
+  ]
+}
+```
+
 **groupGoVersionUpgrade**: Upgrade Go runtime version in Github Actions and group it together in a single PR:
 ```json
 {
