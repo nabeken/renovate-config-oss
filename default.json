@@ -2,6 +2,7 @@
   "extends": [
     "config:recommended",
     ":separateMultipleMajorReleases",
-    ":timezone(Asia/Tokyo)"
+    ":timezone(Asia/Tokyo)",
+    "regexManagers:githubActionsVersions"
   ]
 }
