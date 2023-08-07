@@ -4,5 +4,7 @@
     ":separateMultipleMajorReleases",
     ":timezone(Asia/Tokyo)",
     "regexManagers:githubActionsVersions"
-  ]
+  ],
+
+  "reviewers": ["nabeken"]
 }
