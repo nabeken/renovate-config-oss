@@ -53,6 +53,15 @@ env:
 }
 ```
 
+**githubLocalActionsDefaultVersions**: Update the default version in `action.yml`
+```json
+{
+  "extends": [
+    "github>nabeken/renovate-config-oss:githubLocalActionsDefaultVersions"
+  ]
+}
+```
+
 ## References
 
 - https://github.com/hatena/renovate-config
