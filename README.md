@@ -4,22 +4,7 @@ A shareable renovate config and self-hosted Renovate Github Apps runner for my O
 
 ## How to enable Renovate for my OSS projects
 
-- Install the secrets to a repository
-
-  ```
-  git clone <your-repo>
-  cd <your-repo>
-
-  # RENOVATE_APP_ID
-  gh secret set RENOVATE_APP_ID --app actions --body "$(jq -r .app_id renovate-for-tknetworks.json)"
-
-  # RENOVATE_APP_INST_ID
-  gh secret set RENOVATE_APP_INST_ID --app actions --body "$(jq -r .inst_id renovate-for-tknetworks.json)"
-
-  # RENOVATE_APP_PRIV_KEY
-  gh secret set RENOVATE_APP_PRIV_KEY --app actions < renovate-for-tknetworks.2023-08-05.private-key.pem
-  ```
-
+- Add a new repository to the self-hosted Renovate Github Apps repository acccess
 - Setup `.github/renovate.json` in a repository
 - Add a repository to `.github/renovate-global.json`
 
