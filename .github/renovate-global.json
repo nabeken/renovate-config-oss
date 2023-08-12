@@ -11,6 +11,7 @@
     "nabeken/renovate-config-oss",
     "nabeken/go-check-smtp",
     "nabeken/go-smtp-source",
+    "nabeken/go-check-timesyncd",
     "nabeken/go-github-apps"
   ]
 }
