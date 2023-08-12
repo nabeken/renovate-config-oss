@@ -8,6 +8,7 @@
   "onboardingBranch": "github-renovate/configure",
   "platform": "github",
   "repositories": [
-    "nabeken/renovate-config-oss"
+    "nabeken/renovate-config-oss",
+    "nabeken/go-github-apps"
   ]
 }
