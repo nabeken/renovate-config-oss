@@ -1,6 +1,6 @@
 # renovate-config-oss
 
-A shareable renovate config for my OSS projects. I have a self-hosted Renovate Bot on Github Apps.
+A shareable renovate config and self-hosted Renovate Github Apps runner for my OSS projects.
 
 ## How to enable Renovate for my OSS projects
 
