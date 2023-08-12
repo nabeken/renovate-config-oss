@@ -9,6 +9,7 @@
   "platform": "github",
   "repositories": [
     "nabeken/renovate-config-oss",
+    "nabeken/go-check-smtp",
     "nabeken/go-github-apps"
   ]
 }
