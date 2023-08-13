@@ -13,6 +13,7 @@
     "nabeken/go-smtp-source",
     "nabeken/go-check-timesyncd",
     "nabeken/cloudwatchdoggo",
+    "nabeken/go-api-now",
     "nabeken/go-github-apps"
   ]
 }
