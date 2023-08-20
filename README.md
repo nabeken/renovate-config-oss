@@ -1,4 +1,6 @@
 # renovate-config-oss
+[![Validate renovate config](https://github.com/nabeken/renovate-config-oss/actions/workflows/validate.yml/badge.svg)](https://github.com/nabeken/renovate-config-oss/actions/workflows/validate.yml)
+[![Renovate](https://github.com/nabeken/renovate-config-oss/actions/workflows/renovate.yml/badge.svg)](https://github.com/nabeken/renovate-config-oss/actions/workflows/renovate.yml)
 
 A shareable renovate config and self-hosted Renovate Github Apps runner for my OSS projects.
 
