@@ -14,6 +14,7 @@
     "nabeken/go-check-timesyncd",
     "nabeken/cloudwatchdoggo",
     "nabeken/go-api-now",
+    "nabeken/docker-renovate-github-apps",
     "nabeken/go-github-apps"
   ]
 }
