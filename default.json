@@ -3,7 +3,8 @@
     "config:recommended",
     ":separateMultipleMajorReleases",
     ":timezone(Asia/Tokyo)",
-    "regexManagers:githubActionsVersions"
+    "regexManagers:githubActionsVersions",
+    "regexManagers:dockerfileVersions"
   ],
 
   "reviewers": ["nabeken"]
