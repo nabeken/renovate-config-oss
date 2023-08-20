@@ -18,7 +18,7 @@ jobs:
       - name: Renovate
         uses: renovatebot/github-action@23a02fe7be9e93f857a953cc8162e57d2c8401ef # v39.0.1
         with:
-          renovate-image: ghcr.io/nabeken/renovate-github-apps:main
+          renovate-image: ghcr.io/nabeken/renovate-github-apps
           configurationFile: .github/renovate-global.json
         env:
           LOG_LEVEL: debug
