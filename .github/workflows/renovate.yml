@@ -22,6 +22,7 @@ jobs:
           configurationFile: .github/renovate-global.json
         env:
           LOG_LEVEL: debug
+          RENOVATE_TOKEN: dummy
           GO_GITHUB_APPS_INST_ID: ${{ secrets.renovate_app_inst_id }}
           GO_GITHUB_APPS_APP_ID: ${{ secrets.renovate_app_id }}
           GITHUB_PRIV_KEY: ${{ secrets.renovate_app_priv_key }}
