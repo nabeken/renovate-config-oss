@@ -23,7 +23,8 @@ jobs:
           env-regex: "^(?:RENOVATE_\\w+|LOG_LEVEL|GITHUB_PRIV_KEY|GO_GITHUB_APPS_\\w+)$"
         env:
           LOG_LEVEL: debug
-          RENOVATE_TOKEN: dummy
+          # let the custom image unset RENOVATE_TOKEN
+          RENOVATE_TOKEN: _ACTION_DUMMY_
           GO_GITHUB_APPS_INST_ID: ${{ secrets.renovate_app_inst_id }}
           GO_GITHUB_APPS_APP_ID: ${{ secrets.renovate_app_id }}
           GITHUB_PRIV_KEY: ${{ secrets.renovate_app_priv_key }}
