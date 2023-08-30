@@ -15,6 +15,7 @@
     "nabeken/cloudwatchdoggo",
     "nabeken/go-api-now",
     "nabeken/docker-renovate-github-apps",
+    "nabeken/docker-volume-container-rsync",
     "nabeken/go-github-apps"
   ]
 }
