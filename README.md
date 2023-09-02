@@ -66,6 +66,8 @@ env:
 }
 ```
 
+**semanticCommitsFixDeps**: use `fix(deps)` type and scope for `release-please` to see a PR the releasable unit
+
 ## References
 
 - https://github.com/hatena/renovate-config
