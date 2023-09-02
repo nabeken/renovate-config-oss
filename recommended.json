@@ -4,6 +4,7 @@
     ":prConcurrentLimit10",
     "group:allNonMajor",
     "helpers:pinGitHubActionDigests",
+    ":approveMajorUpdates",
     ":pinDevDependencies"
   ]
 }
