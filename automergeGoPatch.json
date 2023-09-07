@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "matchPackagePatterns": [
+        "^golang$"
+      ],
+      "automerge": true
+    }
+  ]
+}
