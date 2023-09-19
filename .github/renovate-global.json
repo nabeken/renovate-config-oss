@@ -17,6 +17,7 @@
     "nabeken/docker-renovate-github-apps",
     "nabeken/docker-volume-container-rsync",
     "nabeken/go-jwkset",
+    "nabeken/aws-go-s3",
     "nabeken/go-github-apps"
   ]
 }
