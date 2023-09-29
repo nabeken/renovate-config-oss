@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "aws-sdk-go"
+      ],
+      "schedule": "on saturday"
+    }
+  ]
+}
