@@ -68,6 +68,8 @@ env:
 
 **semanticCommitsFixDeps**: use `fix(deps)` type and scope for `release-please` to see a PR the releasable unit
 
+**weeklyAWSSDKGoUpdates**: schedule `aws-sdk-go` upgrade on weekly basis
+
 ## References
 
 - https://github.com/hatena/renovate-config
