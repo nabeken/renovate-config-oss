@@ -4,6 +4,8 @@
       "matchPackagePatterns": [
         "aws-sdk-go"
       ],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true,
       "schedule": "on saturday"
     }
   ]
