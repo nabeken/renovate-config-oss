@@ -19,6 +19,7 @@
     "nabeken/go-jwkset",
     "nabeken/aws-go-s3",
     "nabeken/aws-go-sqs",
+    "nabeken/aws-go-dynamodb",
     "nabeken/go-github-apps"
   ]
 }
