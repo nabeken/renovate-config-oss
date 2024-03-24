@@ -5,6 +5,7 @@
     "group:allNonMajor",
     "helpers:pinGitHubActionDigests",
     ":pinDevDependencies",
+    "github>nabeken/renovate-config-oss:gomodTidy",
     "github>nabeken/renovate-config-oss:weeklyAWSSDKGoUpdates"
   ]
 }
