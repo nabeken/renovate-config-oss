@@ -20,6 +20,7 @@
     "nabeken/aws-go-s3",
     "nabeken/aws-go-sqs",
     "nabeken/aws-go-dynamodb",
+    "nabeken/psadm",
     "nabeken/go-github-apps"
   ]
 }
