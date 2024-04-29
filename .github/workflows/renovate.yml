@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
 
       - name: Renovate
-        uses: renovatebot/github-action@2e021d24483d81e77e0e902d0809adfbfff276fc # v40.1.10
+        uses: renovatebot/github-action@063e0c946b9c1af35ef3450efc44114925d6e8e6 # v40.1.11
         with:
           renovate-image: ghcr.io/nabeken/renovate-github-apps
           configurationFile: .github/renovate-global.json
