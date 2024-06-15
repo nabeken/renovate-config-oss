@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "groupName": "github-actions-automerge",
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
+      "matchPackagePatterns": [
+        "^actions/checkout$"
+      ],
+      "automerge": true
+    }
+  ]
+}

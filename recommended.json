@@ -7,6 +7,7 @@
     ":pinDevDependencies",
     "github>nabeken/renovate-config-oss:gomodTidy",
     "github>nabeken/renovate-config-oss:groupGithubActions",
+    "github>nabeken/renovate-config-oss:automergeActions.json",
     "github>nabeken/renovate-config-oss:weeklyAWSSDKGoUpdates"
   ]
 }
