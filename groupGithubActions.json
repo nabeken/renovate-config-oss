@@ -1,9 +1,7 @@
 {
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "github-actions"
-      ],
+      "matchManagers": ["github-actions"],
       "groupName": "github-actions"
     }
   ]
