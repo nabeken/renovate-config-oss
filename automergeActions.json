@@ -6,7 +6,8 @@
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "matchPackagePatterns": [
         "^actions/checkout$",
-        "^googleapis/release-please-action$"
+        "^googleapis/release-please-action$",
+        "^docker/build-push-action$"
       ],
       "automerge": true
     }
