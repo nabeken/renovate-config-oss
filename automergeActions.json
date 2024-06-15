@@ -5,7 +5,9 @@
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "matchPackagePatterns": [
-        "^actions/checkout$"
+        "^actions/checkout$",
+        "^googleapis/release-please-action$",
+        "^docker/build-push-action$"
       ],
       "automerge": true
     }
