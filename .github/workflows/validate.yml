@@ -8,7 +8,7 @@ on:
 
 env:
   # renovate: datasource=node-version depName=node
-  NODE_VERSION: '20.15.0'
+  NODE_VERSION: '20.15.1'
 
 jobs:
   build:
