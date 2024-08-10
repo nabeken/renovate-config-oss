@@ -3,7 +3,7 @@
   "branchPrefix": "github-renovate/",
   "dependencyDashboardTitle": "Dependency Dashboard self-hosted",
   "username": "renovate-for-tknetworks[bot]",
-  "gitAuthor": "Self-hosted Renovate Bot <141540558+renovate-for-tknetworks[bot]@users.noreply.github.enterprise.com>",
+  "gitAuthor": "renovate-for-tknetworks[bot] <141540558+renovate-for-tknetworks[bot]@users.noreply.github.com>",
   "onboarding": true,
   "onboardingBranch": "github-renovate/configure",
   "platform": "github",
