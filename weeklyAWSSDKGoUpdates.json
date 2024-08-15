@@ -2,7 +2,8 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "aws-sdk-go"
+        "aws-sdk-go",
+        "aws/smithy-go"
       ],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true,
