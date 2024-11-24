@@ -8,6 +8,7 @@
         "^actions/checkout$",
         "^googleapis/release-please-action$",
         "^docker/build-push-action$",
+        "^docker/metadata-action$",
         "^renovatebot/github-action$"
       ],
       "automerge": true
