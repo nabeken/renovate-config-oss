@@ -6,6 +6,7 @@
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "matchPackagePatterns": [
         "^actions/checkout$",
+        "^actions/cache$",
         "^googleapis/release-please-action$",
         "^docker/build-push-action$",
         "^docker/metadata-action$",
