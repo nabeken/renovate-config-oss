@@ -2,7 +2,7 @@
   "packageRules": [
     {
       "matchManagers": ["gomod"],
-      "postUpdateOptions": ["gomodTidy"]
+      "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"]
     }
   ]
 }
