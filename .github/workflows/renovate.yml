@@ -22,7 +22,6 @@ jobs:
           configurationFile: .github/renovate-global.json
           env-regex: "^(?:RENOVATE_\\w+|LOG_LEVEL|GITHUB_PRIV_KEY|GO_GITHUB_APPS_\\w+)$"
         env:
-          LOG_LEVEL: debug
           # let the custom image unset RENOVATE_TOKEN
           RENOVATE_TOKEN: _ACTION_DUMMY_
           GO_GITHUB_APPS_INST_ID: ${{ secrets.renovate_app_inst_id }}
