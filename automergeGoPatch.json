@@ -2,8 +2,10 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
+      "matchDepTypes": ["golang", "toolchain"],
       "matchPackagePatterns": [
-        "^golang$"
+        "^golang$",
+        "^go$"
       ],
       "automerge": true
     }
