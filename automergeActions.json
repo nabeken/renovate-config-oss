@@ -7,6 +7,7 @@
       "matchPackagePatterns": [
         "^actions/checkout$",
         "^actions/cache$",
+        "^actions/setup-go$",
         "^googleapis/release-please-action$",
         "^docker/build-push-action$",
         "^docker/metadata-action$",
