@@ -8,6 +8,7 @@
         "^actions/checkout$",
         "^actions/cache$",
         "^actions/setup-go$",
+        "^actions/create-github-app-token$",
         "^googleapis/release-please-action$",
         "^docker/build-push-action$",
         "^docker/metadata-action$",
