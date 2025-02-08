@@ -5,13 +5,15 @@
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "matchPackagePatterns": [
-        "^actions/checkout$",
         "^actions/cache$",
-        "^actions/setup-go$",
+        "^actions/checkout$",
         "^actions/create-github-app-token$",
-        "^googleapis/release-please-action$",
+        "^actions/setup-go$",
         "^docker/build-push-action$",
+        "^docker/setup-qemu-action$",
+        "^docker/setup-buildx-action$",
         "^docker/metadata-action$",
+        "^googleapis/release-please-action$",
         "^renovatebot/github-action$"
       ],
       "automerge": true
