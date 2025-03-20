@@ -10,6 +10,7 @@
   "repositories": [
     "nabeken/renovate-config-oss",
     "nabeken/go-check-smtp",
+    "nabeken/go-check-sink",
     "nabeken/go-smtp-source",
     "nabeken/go-check-timesyncd",
     "nabeken/cloudwatchdoggo",
