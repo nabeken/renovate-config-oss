@@ -15,6 +15,7 @@
     "nabeken/go-check-timesyncd",
     "nabeken/cloudwatchdoggo",
     "nabeken/go-api-now",
+    "nabeken/go-simple-tcp-echo",
     "nabeken/docker-renovate-github-apps",
     "nabeken/docker-volume-container-rsync",
     "nabeken/docker-smtp-sink",
