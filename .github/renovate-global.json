@@ -25,6 +25,7 @@
     "nabeken/aws-go-dynamodb",
     "nabeken/gorilla-sessions-dynamodb",
     "nabeken/psadm",
+    "nabeken/koro",
     "nabeken/nagiosplugin",
     "nabeken/go-github-apps"
   ]
