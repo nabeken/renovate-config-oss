@@ -1,7 +1,10 @@
 {
   "packageRules": [
     {
-      "matchPackagePatterns": ["golang"],
+      "matchPackagePatterns": [
+        "^golang$",
+        "^go$"
+      ],
       "groupName": "Go"
     }
   ]
