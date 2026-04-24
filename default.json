@@ -7,5 +7,6 @@
     "regexManagers:dockerfileVersions"
   ],
 
-  "reviewers": ["nabeken"]
+  "reviewers": ["nabeken"],
+  "allowUnsafeSshCommand": true
 }
